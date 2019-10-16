@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <header th:replace="base :: header"></header>
+</head>
+<style>
+    #jumbotron {
+        max-width: 70%;
+        max-height: 100%;
+        margin: 0 auto;
+    }
+
+
+</style>
+
+
+<body>
+<nav th:replace="base :: navlinks"></nav>
+
+<div id="jumbotron" class="jumbotron jumbotron-fluid">
+    <div class="container">
+        <h1 class="display-4">Security</h1>
+        <p class="lead">It Works!</p>
+        <br/><br/><br/><br/><br/>
+    </div>
+</div>
+
+
+<br/><br/><br/><br/><br/>
+<div th:replace="base :: footer"></div>
+<div th:replace="base :: scripts"></div>
+
+</body>
+</html>
